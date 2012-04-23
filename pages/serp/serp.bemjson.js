@@ -18,13 +18,15 @@
                     attrs: { value: '' }
                 },
                 button: {
-                    elem: 'button'
+                    elem: 'button',
+                    attrs: { value: 'Найти' }
                 }
             },
 
             {
                 block: 'b-serp-list',
                 content: [
+                    { elem: 'title', content: 'Найдено 100500 документов' },
                     {
                         block: 'b-serp-item',
                         content: [

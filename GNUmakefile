@@ -22,7 +22,7 @@ BEM_CREATE=$(BEM) create block \
 	$(call BEM_CREATE,bem-bl/blocks-common/i-bem/bem/techs/html.js)
 
 .PRECIOUS: %.priv.js
-%.priv.js: %.deps.js %.bemhtml.js
+%.priv.js: %.deps.js
 	$(call BEM_BUILD,bem/techs/priv.js.js)
 
 .PRECIOUS: %.bemhtml.js

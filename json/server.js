@@ -21,6 +21,8 @@ http.createServer(function (req, res) {
 
     res.writeHeader(200, { 'Content-Type': 'text/html;charset=utf-8' });
 
+    DATA.url = urlParsed;
+
     res.write(BEMHTML.apply(PRIV(DATA)));
 
     res.end();

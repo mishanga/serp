@@ -1,0 +1,6 @@
+block b-layout {
+    content: {
+        elem: 'wrap',
+        content: this.ctx.content
+    }
+}

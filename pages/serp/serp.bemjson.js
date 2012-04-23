@@ -29,20 +29,20 @@
                         block: 'b-serp-item',
                         content: [
                             { elem: 'number', content: 1 },
-                            { elem: 'title', content: 'Title', url: 'www.example.com' },
+                            { elem: 'title', content: 'Title', url: 'http://www.example.com/' },
                             { elem: 'text', content: 'Text' },
-                            { elem: 'url', content: 'www.example.com' }
+                            { elem: 'url', content: 'http://www.example.com/' }
                         ]
                     },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 2 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 3 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 4 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 5 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 6 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 7 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 8 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 9 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] },
-                    { block: 'b-serp-item', content: [ { elem: 'number', content: 10 }, { elem: 'title', content: 'Title', url: 'www.example.com' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'www.example.com' } ] }
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 2 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] },
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 3 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] },
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 4 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] },
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 5 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] },
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 6 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] },
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 7 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] },
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 8 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] },
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 9 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] },
+                    { block: 'b-serp-item', content: [ { elem: 'number', content: 10 }, { elem: 'title', content: 'Title', url: 'http://www.example.com/' }, { elem: 'text', content: 'Text' }, { elem: 'url', content: 'http://www.example.com/' } ] }
                 ]
             }
         ]

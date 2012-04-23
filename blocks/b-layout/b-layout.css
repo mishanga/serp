@@ -1,0 +1,10 @@
+.b-layout
+{
+    padding: 50px;
+}
+
+.b-layout__wrap
+{
+    width: 50%;
+    margin: 0 auto;
+}

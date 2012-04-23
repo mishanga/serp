@@ -16,10 +16,10 @@ BEM_BUILD=$(BEM) build \
 BEM_CREATE=$(BEM) create block \
 		-l pages \
 		-T $1 \
-		--force \
 		$(*F)
 
 %.html: %.bemhtml.js %.css %.js %.ie.css %.bemhtml.js
+	rm $@
 	$(call BEM_CREATE,bem-bl/blocks-common/i-bem/bem/techs/html.js)
 
 .PRECIOUS: %.bemhtml.js

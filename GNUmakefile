@@ -17,13 +17,17 @@ BEM_CREATE=$(BEM) create block \
 		-T $1 \
 		$(*F)
 
-%.html: %.bemhtml.js %.css %.js %.ie.css %.bemhtml.js
+%.html: %.bemhtml.js %.css %.js %.ie.css %.bemhtml.js %.priv.js
 	rm $@
 	$(call BEM_CREATE,bem-bl/blocks-common/i-bem/bem/techs/html.js)
 
+.PRECIOUS: %.priv.js
+%.priv.js: %.deps.js %.bemhtml.js
+	$(call BEM_BUILD,bem/techs/priv.js.js)
+
 .PRECIOUS: %.bemhtml.js
 %.bemhtml.js: %.deps.js
-	$(call BEM_BUILD,bem-bl/blocks-common/i-bem/bem/techs/bemhtml.js)
+	$(call BEM_BUILD,bem/techs/bemhtml.js)
 
 %.deps.js: %.bemdecl.js
 	$(call BEM_BUILD,deps.js)

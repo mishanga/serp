@@ -17,8 +17,8 @@ BEM_CREATE=$(BEM) create block \
 		-T $1 \
 		$(*F)
 
-%.html: %.bemhtml.js %.css %.js %.ie.css %.bemhtml.js %.priv.js
-	rm $@
+%.html: %.bemhtml.js %.css %.js %.ie.css %.bemhtml.js %.priv.js FORCE
+	rm -f $@
 	$(call BEM_CREATE,bem-bl/blocks-common/i-bem/bem/techs/html.js)
 
 .PRECIOUS: %.priv.js
@@ -59,4 +59,6 @@ DO_GIT=@echo -- git $1 $2; \
 bem-bl:
 	$(call DO_GIT,git://github.com/bem/bem-bl.git,$@)
 
-.PHONY: all
+.PHONY: all FORCE
+
+FORCE:
